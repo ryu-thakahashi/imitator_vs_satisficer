@@ -1,0 +1,3854 @@
+{
+    "set_id": 7486,
+    "created_at": "20241119_085748",
+    "reward_condition_pos": 2,
+    "bc_ratio": 4,
+    "session_list": [
+        {
+            "session_phase": "full_information",
+            "seat_reward_dict": {
+                "9475": "rt607079",
+                "1018": "rt902991",
+                "6064": "rt521603",
+                "9711": "rt694917",
+                "6718": "rt328606",
+                "2756": "rt272624",
+                "7757": "rt362891",
+                "2310": "rt932903",
+                "6677": "rt808531"
+            },
+            "reward_seat_dict": {
+                "rt607079": "9475",
+                "rt902991": "1018",
+                "rt521603": "6064",
+                "rt694917": "9711",
+                "rt328606": "6718",
+                "rt272624": "2756",
+                "rt362891": "7757",
+                "rt932903": "2310",
+                "rt808531": "6677"
+            },
+            "total_reward_dict": {
+                "rt607079": 84,
+                "rt902991": -8,
+                "rt521603": 48,
+                "rt694917": 72,
+                "rt328606": 20,
+                "rt272624": 84,
+                "rt362891": 0,
+                "rt932903": 40,
+                "rt808531": 8
+            },
+            "round_list": [
+                {
+                    "round_number": 1,
+                    "exp_start_time": 1732005203.4312851,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 4, 4, 0, 4, 4, 0, 8],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005207.6080017,
+                            "payoff": 0
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005208.6229477,
+                            "payoff": 0
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005211.3879738,
+                            "payoff": 4
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005212.6779616,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005213.6291096,
+                            "payoff": 0
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005218.2436578,
+                            "payoff": 4
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005222.081949,
+                            "payoff": 8
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005223.7140124,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 2,
+                    "exp_start_time": 1732005276.0321221,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate"
+                    ],
+                    "payoff_list": [4, 8, 12, 0, 4, 8, 8, 4],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005288.1725795,
+                            "payoff": 8
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005283.8376796,
+                            "payoff": 0
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005279.3235354,
+                            "payoff": 8
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005283.8679445,
+                            "payoff": 8
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005278.6069126,
+                            "payoff": 4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005290.2938375,
+                            "payoff": 12
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005294.6245742,
+                            "payoff": 4
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005291.3187113,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 3,
+                    "exp_start_time": 1732005301.6385448,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate"
+                    ],
+                    "payoff_list": [4, 4, 12, 8, -4, 8, 12, 4],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005304.0880494,
+                            "payoff": 12
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005305.8597007,
+                            "payoff": 8
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005303.5341148,
+                            "payoff": 8
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005305.3825183,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005312.3166268,
+                            "payoff": 4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005306.3733954,
+                            "payoff": 12
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005319.3715875,
+                            "payoff": 4
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005305.1825812,
+                            "payoff": -4
+                        }
+                    }
+                },
+                {
+                    "round_number": 4,
+                    "exp_start_time": 1732005332.954873,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 4, 4, -4, 4, 4, 0],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005334.7895174,
+                            "payoff": 4
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005337.3335965,
+                            "payoff": 4
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005335.0665944,
+                            "payoff": 4
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005335.8481035,
+                            "payoff": 0
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005342.8787186,
+                            "payoff": 0
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005339.1382928,
+                            "payoff": 4
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005336.1406908,
+                            "payoff": 0
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005336.5776734,
+                            "payoff": -4
+                        }
+                    }
+                },
+                {
+                    "round_number": 5,
+                    "exp_start_time": 1732005356.4827666,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate"
+                    ],
+                    "payoff_list": [4, 4, 0, 0, 0, 4, 4, -4],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005358.9881935,
+                            "payoff": 4
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005359.938525,
+                            "payoff": 0
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005362.1121416,
+                            "payoff": 4
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005363.8141286,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005358.2735178,
+                            "payoff": 4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005362.8213124,
+                            "payoff": 0
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005368.1850722,
+                            "payoff": -4
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005358.6383922,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 6,
+                    "exp_start_time": 1732005377.802693,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 8, 4, 0, 0, 4, 8],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005379.9047158,
+                            "payoff": 4
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005380.6900027,
+                            "payoff": 4
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005383.586076,
+                            "payoff": 0
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005383.0252016,
+                            "payoff": 0
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005380.579062,
+                            "payoff": 0
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005382.0395808,
+                            "payoff": 8
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005393.2695224,
+                            "payoff": 8
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005379.3616178,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 7,
+                    "exp_start_time": 1732005400.4359596,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 4, 4, 0, 0, 0, 4, 4],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005402.9107273,
+                            "payoff": 4
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005404.2237608,
+                            "payoff": 0
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005402.9970012,
+                            "payoff": 0
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005405.1274507,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005404.0566745,
+                            "payoff": -4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005405.2996838,
+                            "payoff": 4
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005409.2473853,
+                            "payoff": 4
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005402.9776492,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 8,
+                    "exp_start_time": 1732005418.837925,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 4, 8, 8, 0, 0, 12, 8],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005421.2808597,
+                            "payoff": 12
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005421.0376432,
+                            "payoff": 8
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005420.7334409,
+                            "payoff": 0
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005424.2636864,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005425.6500657,
+                            "payoff": -4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005426.0303798,
+                            "payoff": 8
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005430.5371063,
+                            "payoff": 8
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005421.1376936,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 9,
+                    "exp_start_time": 1732005440.972181,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [4, -4, 8, 8, -4, 4, 4, 4],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005443.3651538,
+                            "payoff": 4
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005443.8998613,
+                            "payoff": 8
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005444.8712947,
+                            "payoff": 4
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005446.0134344,
+                            "payoff": -4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005443.3786607,
+                            "payoff": 4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005447.2595212,
+                            "payoff": 8
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005454.9862502,
+                            "payoff": 4
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005442.5905423,
+                            "payoff": -4
+                        }
+                    }
+                },
+                {
+                    "round_number": 10,
+                    "exp_start_time": 1732005464.601896,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 0, 0, 0, 0, 0, 0],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005467.0926504,
+                            "payoff": 0
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005467.4994457,
+                            "payoff": 0
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005469.6806097,
+                            "payoff": 0
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005470.2782614,
+                            "payoff": 0
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005467.0007737,
+                            "payoff": 0
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005468.0682352,
+                            "payoff": 0
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005482.571007,
+                            "payoff": 0
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005466.4742002,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 11,
+                    "exp_start_time": 1732005496.6954658,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 8, 8, 4, -4, 8, 12],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005498.9141893,
+                            "payoff": 8
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005500.1277592,
+                            "payoff": 8
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005500.9338224,
+                            "payoff": -4
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005500.1593251,
+                            "payoff": 0
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005502.9218276,
+                            "payoff": 0
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005501.315398,
+                            "payoff": 8
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005510.5327048,
+                            "payoff": 12
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005498.2431765,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 12,
+                    "exp_start_time": 1732005518.6880565,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 4, 4, 4, 4, -4, 8, 8],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005522.1617305,
+                            "payoff": 8
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005521.9787931,
+                            "payoff": 4
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005522.2418976,
+                            "payoff": -4
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005521.2951653,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005520.8498838,
+                            "payoff": -4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005524.5532708,
+                            "payoff": 4
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005526.752043,
+                            "payoff": 8
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005520.4785933,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 13,
+                    "exp_start_time": 1732005535.9268935,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 4, 4, 4, 4, -4, 8, 8],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005541.4875565,
+                            "payoff": 8
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005540.750518,
+                            "payoff": 4
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005538.8996167,
+                            "payoff": -4
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005538.3811429,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005538.7004037,
+                            "payoff": -4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005540.2486498,
+                            "payoff": 4
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005539.676826,
+                            "payoff": 8
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005537.4812853,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 14,
+                    "exp_start_time": 1732005549.3203034,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 4, 4, 0, 0, 0, 4, 4],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005551.6510699,
+                            "payoff": 4
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005552.6647198,
+                            "payoff": 0
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005551.804352,
+                            "payoff": 0
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005557.6900334,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005551.7579021,
+                            "payoff": -4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005558.960935,
+                            "payoff": 4
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005556.3782218,
+                            "payoff": 4
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005553.5808291,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 15,
+                    "exp_start_time": 1732005569.1192832,
+                    "network_list": [
+                        "1018",
+                        "2310",
+                        "2756",
+                        "6064",
+                        "6677",
+                        "6718",
+                        "9475",
+                        "9711"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 4, 4, 0, 0, 0, 4, 4],
+                    "seat_participant_dict": {
+                        "9475": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9475",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005571.591518,
+                            "payoff": 4
+                        },
+                        "6064": {
+                            "reward_id": "rt521603",
+                            "seat_id": "6064",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005571.6582978,
+                            "payoff": 0
+                        },
+                        "6718": {
+                            "reward_id": "rt328606",
+                            "seat_id": "6718",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005571.3207371,
+                            "payoff": 0
+                        },
+                        "2310": {
+                            "reward_id": "rt932903",
+                            "seat_id": "2310",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005575.1061478,
+                            "payoff": 4
+                        },
+                        "1018": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1018",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005571.2846124,
+                            "payoff": -4
+                        },
+                        "2756": {
+                            "reward_id": "rt272624",
+                            "seat_id": "2756",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005575.4142976,
+                            "payoff": 4
+                        },
+                        "9711": {
+                            "reward_id": "rt694917",
+                            "seat_id": "9711",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005576.7010212,
+                            "payoff": 4
+                        },
+                        "6677": {
+                            "reward_id": "rt808531",
+                            "seat_id": "6677",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005571.488559,
+                            "payoff": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "session_phase": "summary_information",
+            "seat_reward_dict": {
+                "7948": "rt521603",
+                "1755": "rt902991",
+                "2315": "rt328606",
+                "1612": "rt272624",
+                "9237": "rt607079",
+                "4508": "rt362891",
+                "3770": "rt694917",
+                "6040": "rt932903",
+                "2355": "rt808531"
+            },
+            "reward_seat_dict": {
+                "rt521603": "7948",
+                "rt902991": "1755",
+                "rt328606": "2315",
+                "rt272624": "1612",
+                "rt607079": "9237",
+                "rt362891": "4508",
+                "rt694917": "3770",
+                "rt932903": "6040",
+                "rt808531": "2355"
+            },
+            "total_reward_dict": {
+                "rt521603": 32,
+                "rt902991": -28,
+                "rt328606": 72,
+                "rt272624": 48,
+                "rt607079": 60,
+                "rt362891": 0,
+                "rt694917": -4,
+                "rt932903": 44,
+                "rt808531": 76
+            },
+            "round_list": [
+                {
+                    "round_number": 1,
+                    "exp_start_time": 1732005954.7954524,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect"
+                    ],
+                    "payoff_list": [8, -4, 4, 4, 4, 4, -4, 8],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005957.8257518,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005957.989136,
+                            "payoff": -4
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732005958.5537436,
+                            "payoff": -4
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005959.6334157,
+                            "payoff": 8
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005959.7141256,
+                            "payoff": 8
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005968.8836029,
+                            "payoff": 4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005975.2422311,
+                            "payoff": 4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732005975.7395995,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 2,
+                    "exp_start_time": 1732006029.6520188,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "cooperate",
+                        "cooperate",
+                        "defect"
+                    ],
+                    "payoff_list": [8, -4, 8, 12, 4, 4, 4, 12],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006031.9291954,
+                            "payoff": 8
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006032.6124358,
+                            "payoff": -4
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006032.7529209,
+                            "payoff": 4
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006042.8989,
+                            "payoff": 8
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006031.9509478,
+                            "payoff": 12
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006038.4739375,
+                            "payoff": 4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006036.1647463,
+                            "payoff": 4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006033.3885992,
+                            "payoff": 12
+                        }
+                    }
+                },
+                {
+                    "round_number": 3,
+                    "exp_start_time": 1732006050.528701,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect"
+                    ],
+                    "payoff_list": [4, 0, 4, 4, 0, 8, 0, 4],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006058.4078505,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006053.5844805,
+                            "payoff": 0
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006052.7284524,
+                            "payoff": 0
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006056.9729116,
+                            "payoff": 4
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006052.7335424,
+                            "payoff": 4
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006053.151553,
+                            "payoff": 0
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006055.9344578,
+                            "payoff": 8
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006057.7510662,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 4,
+                    "exp_start_time": 1732006067.1144433,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 4, 4, -4, 4, 4, 0],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006069.7141821,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006069.6639702,
+                            "payoff": 0
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006069.9151306,
+                            "payoff": 4
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006072.1932979,
+                            "payoff": 0
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006069.3744607,
+                            "payoff": 0
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006069.5425048,
+                            "payoff": -4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006072.4477727,
+                            "payoff": 4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006070.0128226,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 5,
+                    "exp_start_time": 1732006078.309974,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 0, 0, 0, 0, 0, 0],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006080.7149377,
+                            "payoff": 0
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006080.61854,
+                            "payoff": 0
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006081.619309,
+                            "payoff": 0
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006081.6477933,
+                            "payoff": 0
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006080.3169403,
+                            "payoff": 0
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006082.6900575,
+                            "payoff": 0
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006081.1953065,
+                            "payoff": 0
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006080.4551697,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 6,
+                    "exp_start_time": 1732006091.821293,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 4, 4, -4, 4, 4, 0],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006094.6558604,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006094.2548728,
+                            "payoff": 0
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006094.6803622,
+                            "payoff": 4
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006094.1482563,
+                            "payoff": 0
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006094.1669364,
+                            "payoff": 0
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006093.7443342,
+                            "payoff": -4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006097.0070322,
+                            "payoff": 4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006093.5527382,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 7,
+                    "exp_start_time": 1732006105.908685,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [4, 0, 8, 0, 4, 4, 0, 4],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006107.9829655,
+                            "payoff": 8
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006109.572742,
+                            "payoff": 0
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006108.4978788,
+                            "payoff": 0
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006109.1334007,
+                            "payoff": 4
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006108.1512783,
+                            "payoff": 4
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006108.720292,
+                            "payoff": 4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006111.3895586,
+                            "payoff": 4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006107.0107996,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 8,
+                    "exp_start_time": 1732006118.0441937,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [4, -4, 4, 4, 0, 0, 0, 4],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006120.835177,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006120.1996458,
+                            "payoff": -4
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006120.4424806,
+                            "payoff": 0
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006122.018753,
+                            "payoff": 4
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006120.1822777,
+                            "payoff": 4
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006121.0985532,
+                            "payoff": 0
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006123.6374254,
+                            "payoff": 0
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006119.595461,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 9,
+                    "exp_start_time": 1732006133.7672243,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect"
+                    ],
+                    "payoff_list": [8, -4, 8, 8, 0, 8, 0, 8],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006136.0770726,
+                            "payoff": 8
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006135.8422043,
+                            "payoff": -4
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006136.2347991,
+                            "payoff": 0
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006136.7243478,
+                            "payoff": 8
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006135.729343,
+                            "payoff": 8
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006136.5778322,
+                            "payoff": 0
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006139.216235,
+                            "payoff": 8
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006135.149709,
+                            "payoff": 8
+                        }
+                    }
+                },
+                {
+                    "round_number": 10,
+                    "exp_start_time": 1732006147.560965,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [4, -4, 4, 8, 4, -4, 4, 8],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006149.8117135,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006150.0790224,
+                            "payoff": -4
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006150.6900992,
+                            "payoff": 4
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006150.3197725,
+                            "payoff": 4
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006149.5877085,
+                            "payoff": 8
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006151.986843,
+                            "payoff": 4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006150.6213,
+                            "payoff": -4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006148.9587226,
+                            "payoff": 8
+                        }
+                    }
+                },
+                {
+                    "round_number": 11,
+                    "exp_start_time": 1732006158.5127244,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [4, -4, 4, 4, 0, 0, 0, 4],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006166.1959052,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006161.5435452,
+                            "payoff": -4
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006160.5848565,
+                            "payoff": 0
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006168.0009823,
+                            "payoff": 4
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006160.5448282,
+                            "payoff": 4
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006161.257925,
+                            "payoff": 0
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006160.7713854,
+                            "payoff": 0
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006160.0875285,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 12,
+                    "exp_start_time": 1732006180.694123,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [4, -4, 8, 12, 0, 0, 8, 8],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006183.4804726,
+                            "payoff": 8
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006182.7475612,
+                            "payoff": -4
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006183.5074203,
+                            "payoff": 8
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006183.2982717,
+                            "payoff": 4
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006182.7365952,
+                            "payoff": 8
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006194.131238,
+                            "payoff": 0
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006183.4638007,
+                            "payoff": 0
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006182.3875074,
+                            "payoff": 12
+                        }
+                    }
+                },
+                {
+                    "round_number": 13,
+                    "exp_start_time": 1732006204.239555,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 4, 4, -4, 4, 4, 0],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006206.8125658,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006206.8025432,
+                            "payoff": 0
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006207.4350166,
+                            "payoff": 4
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006211.9328308,
+                            "payoff": 0
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006206.5799017,
+                            "payoff": 0
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006207.1070752,
+                            "payoff": -4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006209.6727128,
+                            "payoff": 4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006207.2536316,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 14,
+                    "exp_start_time": 1732006211.9870183,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 4, 4, -4, 4, 4, 0],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006206.8125658,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006206.8025432,
+                            "payoff": 0
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006207.4350166,
+                            "payoff": 4
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006211.9328308,
+                            "payoff": 0
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006206.5799017,
+                            "payoff": 0
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006207.1070752,
+                            "payoff": -4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006209.6727128,
+                            "payoff": 4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006207.2536316,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 15,
+                    "exp_start_time": 1732006217.8164718,
+                    "network_list": [
+                        "1612",
+                        "1755",
+                        "2315",
+                        "2355",
+                        "3770",
+                        "6040",
+                        "7948",
+                        "9237"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 0, 4, 4, -4, 4, 4, 0],
+                    "seat_participant_dict": {
+                        "2315": {
+                            "reward_id": "rt328606",
+                            "seat_id": "2315",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006227.2586648,
+                            "payoff": 4
+                        },
+                        "1755": {
+                            "reward_id": "rt902991",
+                            "seat_id": "1755",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006219.4887168,
+                            "payoff": 0
+                        },
+                        "7948": {
+                            "reward_id": "rt521603",
+                            "seat_id": "7948",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006220.2844787,
+                            "payoff": 4
+                        },
+                        "1612": {
+                            "reward_id": "rt272624",
+                            "seat_id": "1612",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006225.3052697,
+                            "payoff": 0
+                        },
+                        "9237": {
+                            "reward_id": "rt607079",
+                            "seat_id": "9237",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006220.1871278,
+                            "payoff": 0
+                        },
+                        "3770": {
+                            "reward_id": "rt694917",
+                            "seat_id": "3770",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006222.4593682,
+                            "payoff": -4
+                        },
+                        "6040": {
+                            "reward_id": "rt932903",
+                            "seat_id": "6040",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006221.7116034,
+                            "payoff": 4
+                        },
+                        "2355": {
+                            "reward_id": "rt808531",
+                            "seat_id": "2355",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006222.3628001,
+                            "payoff": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "session_phase": "behavior_only",
+            "seat_reward_dict": {
+                "4459": "rt607079",
+                "7390": "rt902991",
+                "7735": "rt328606",
+                "8660": "rt272624",
+                "9387": "rt521603",
+                "1336": "rt694917",
+                "8345": "rt932903",
+                "1758": "rt808531"
+            },
+            "reward_seat_dict": {
+                "rt607079": "4459",
+                "rt902991": "7390",
+                "rt328606": "7735",
+                "rt272624": "8660",
+                "rt521603": "9387",
+                "rt694917": "1336",
+                "rt932903": "8345",
+                "rt808531": "1758"
+            },
+            "total_reward_dict": {
+                "rt607079": 108,
+                "rt902991": -32,
+                "rt328606": 76,
+                "rt272624": 52,
+                "rt521603": 64,
+                "rt694917": -24,
+                "rt932903": 44,
+                "rt808531": 84
+            },
+            "round_list": [
+                {
+                    "round_number": 1,
+                    "exp_start_time": 1732006418.6892998,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 8, 8, -4, 4, 4, 4, 4],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006421.7143176,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006422.1384716,
+                            "payoff": -4
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006422.6745918,
+                            "payoff": 4
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006423.1579218,
+                            "payoff": 8
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006423.260677,
+                            "payoff": -4
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006426.2249944,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006427.7285728,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006439.140407,
+                            "payoff": 8
+                        }
+                    }
+                },
+                {
+                    "round_number": 2,
+                    "exp_start_time": 1732006448.523549,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 8, 8, 0, 8, 0, 8, 8],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006454.1287835,
+                            "payoff": 8
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006451.6427794,
+                            "payoff": 0
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006452.3296232,
+                            "payoff": 8
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006450.8970566,
+                            "payoff": 8
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006451.8935177,
+                            "payoff": -4
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006458.3103487,
+                            "payoff": 0
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006450.7990806,
+                            "payoff": 8
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006451.4489598,
+                            "payoff": 8
+                        }
+                    }
+                },
+                {
+                    "round_number": 3,
+                    "exp_start_time": 1732006464.5510764,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 8, 8, -4, 4, 4, 4, 4],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006467.322715,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006466.4877286,
+                            "payoff": -4
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006467.138109,
+                            "payoff": 4
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006469.1138463,
+                            "payoff": 8
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006469.5347717,
+                            "payoff": -4
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006470.209395,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006467.2533996,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006466.7173734,
+                            "payoff": 8
+                        }
+                    }
+                },
+                {
+                    "round_number": 4,
+                    "exp_start_time": 1732006477.319419,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 4, 4, -4, 4, 4, 0, 0],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006479.7696512,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006479.5053377,
+                            "payoff": -4
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006480.16282,
+                            "payoff": 0
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006480.4186494,
+                            "payoff": 4
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006479.969614,
+                            "payoff": 0
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006484.081177,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006480.330414,
+                            "payoff": 0
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006482.8949893,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 5,
+                    "exp_start_time": 1732006493.4961238,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 4, 4, 0, 8, 0, 4, 4],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006496.0718288,
+                            "payoff": 8
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006496.7899528,
+                            "payoff": 0
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006496.4334562,
+                            "payoff": 4
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006495.6099317,
+                            "payoff": 4
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006496.0683498,
+                            "payoff": 0
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006497.8456678,
+                            "payoff": 0
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006497.6685612,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006504.534588,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 6,
+                    "exp_start_time": 1732006509.4923358,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [4, 0, 8, 0, 4, 4, 0, 4],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006511.5386083,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006511.8802571,
+                            "payoff": 0
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006514.0801957,
+                            "payoff": 4
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006512.255771,
+                            "payoff": 8
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006512.3978703,
+                            "payoff": 4
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006511.7375376,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006513.563841,
+                            "payoff": 0
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006511.6684732,
+                            "payoff": 0
+                        }
+                    }
+                },
+                {
+                    "round_number": 7,
+                    "exp_start_time": 1732006522.0245645,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 4, 12, 0, 4, 4, 4, 8],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006524.5984058,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006524.298045,
+                            "payoff": 0
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006524.4447021,
+                            "payoff": 8
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006524.4101582,
+                            "payoff": 12
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006526.549816,
+                            "payoff": 0
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006524.553842,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006526.4345155,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006523.8552783,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 8,
+                    "exp_start_time": 1732006534.4316115,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 8, 8, -4, 4, 4, 4, 4],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006536.9692838,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006538.2567906,
+                            "payoff": -4
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006537.470407,
+                            "payoff": 4
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006536.734573,
+                            "payoff": 8
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006536.9467874,
+                            "payoff": -4
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006537.448108,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006544.169609,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006535.9855015,
+                            "payoff": 8
+                        }
+                    }
+                },
+                {
+                    "round_number": 9,
+                    "exp_start_time": 1732006552.2949276,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 8, 8, -4, 4, 4, 4, 4],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006555.306774,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006554.6381056,
+                            "payoff": -4
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006555.2582088,
+                            "payoff": 4
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006554.8319123,
+                            "payoff": 8
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006559.6964111,
+                            "payoff": -4
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006557.665176,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006561.3805494,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006553.5345457,
+                            "payoff": 8
+                        }
+                    }
+                },
+                {
+                    "round_number": 10,
+                    "exp_start_time": 1732006567.0786052,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 4, 4, -4, 4, 4, 0, 0],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006569.663384,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006569.0783916,
+                            "payoff": -4
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006569.774677,
+                            "payoff": 0
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006570.1817265,
+                            "payoff": 4
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006572.0859737,
+                            "payoff": 0
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006569.8963487,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006570.486951,
+                            "payoff": 0
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006568.8229127,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 11,
+                    "exp_start_time": 1732006580.874218,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 4, 4, -4, 4, 4, 0, 0],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006584.127481,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006583.174806,
+                            "payoff": -4
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006583.9881902,
+                            "payoff": 0
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006587.0124247,
+                            "payoff": 4
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006584.049753,
+                            "payoff": 0
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006588.511352,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006584.213735,
+                            "payoff": 0
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006582.785176,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 12,
+                    "exp_start_time": 1732006596.916997,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "defect",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 4, 4, 0, 8, 0, 4, 4],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006599.3747504,
+                            "payoff": 8
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006599.1259937,
+                            "payoff": 0
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006599.5982258,
+                            "payoff": 4
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006599.236648,
+                            "payoff": 4
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006600.7534173,
+                            "payoff": 0
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006602.3033192,
+                            "payoff": 0
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006603.2430785,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006598.480621,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 13,
+                    "exp_start_time": 1732006616.8488724,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [0, 4, 12, 0, 4, 4, 4, 8],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006619.2384055,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006619.1071844,
+                            "payoff": 0
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006619.7300417,
+                            "payoff": 8
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006619.7428794,
+                            "payoff": 12
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006623.7236545,
+                            "payoff": 0
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006623.5305529,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006619.4380891,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006619.7852497,
+                            "payoff": 4
+                        }
+                    }
+                },
+                {
+                    "round_number": 14,
+                    "exp_start_time": 1732006637.2708771,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 8, 8, 0, 8, 0, 8, 8],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006640.805589,
+                            "payoff": 8
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006639.2991772,
+                            "payoff": 0
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006643.0152209,
+                            "payoff": 8
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006639.2281945,
+                            "payoff": 8
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006639.8785088,
+                            "payoff": -4
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006642.783283,
+                            "payoff": 0
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006640.3132038,
+                            "payoff": 8
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006638.7378416,
+                            "payoff": 8
+                        }
+                    }
+                },
+                {
+                    "round_number": 15,
+                    "exp_start_time": 1732006653.305155,
+                    "network_list": [
+                        "1336",
+                        "1758",
+                        "4459",
+                        "7390",
+                        "7735",
+                        "8345",
+                        "8660",
+                        "9387"
+                    ],
+                    "action_list": [
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "cooperate",
+                        "defect",
+                        "defect",
+                        "defect",
+                        "defect"
+                    ],
+                    "payoff_list": [-4, 8, 8, -4, 4, 4, 4, 4],
+                    "seat_participant_dict": {
+                        "7735": {
+                            "reward_id": "rt328606",
+                            "seat_id": "7735",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006655.6504357,
+                            "payoff": 4
+                        },
+                        "7390": {
+                            "reward_id": "rt902991",
+                            "seat_id": "7390",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006656.60825,
+                            "payoff": -4
+                        },
+                        "9387": {
+                            "reward_id": "rt521603",
+                            "seat_id": "9387",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006656.6506238,
+                            "payoff": 4
+                        },
+                        "4459": {
+                            "reward_id": "rt607079",
+                            "seat_id": "4459",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006655.2434502,
+                            "payoff": 8
+                        },
+                        "1336": {
+                            "reward_id": "rt694917",
+                            "seat_id": "1336",
+                            "action": "cooperate",
+                            "decision_time_stamp": 1732006657.0624597,
+                            "payoff": -4
+                        },
+                        "8345": {
+                            "reward_id": "rt932903",
+                            "seat_id": "8345",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006659.0648203,
+                            "payoff": 4
+                        },
+                        "8660": {
+                            "reward_id": "rt272624",
+                            "seat_id": "8660",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006655.6788576,
+                            "payoff": 4
+                        },
+                        "1758": {
+                            "reward_id": "rt808531",
+                            "seat_id": "1758",
+                            "action": "defect",
+                            "decision_time_stamp": 1732006654.3882196,
+                            "payoff": 8
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
